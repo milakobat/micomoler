@@ -1,0 +1,180 @@
+@font-face
+{
+font-family: Unna;
+src: url('Unna-Regular.otf'); url('Unna-Regular.eot'); /* IE9 */
+}
+
+@font-face
+{
+font-family: Ostrich;
+src: url('ostrich-light-webfont.ttf'); 
+src: url('ostrich-light-webfont.eot'); /* IE9 */
+src: url('ostrich-light-webfont.woff');
+}
+
+
+a:link {color:#FFCCCC; text-decoration:none;}      /* unvisited link */
+a:visited {color:#FF9999; text-decoration:none;}  /* visited link */
+a:hover {color:#FF9999; text-decoration:none;}  /* mouse over link */
+a:active {color:#FF9999; text-decoration:none;}  /* selected link */
+
+.h1 a:link {color:#181818; text-decoration:none;}      /* unvisited link */
+.h1 a:visited {color:#181818; text-decoration:none;}  /* visited link */
+.h1 a:hover {color:#181818; text-decoration:none;}  /* mouse over link */
+.h1 a:active {color:#181818; text-decoration:none;}  /* selected link */
+
+html, body{
+	background: url(../images/background.jpg);
+}
+
+h1{
+	font-family: Ostrich, serif;
+	font-size: 50px;
+	color: #474643;
+	line-height: 60px; /* IE 9 and below */
+}
+
+
+h2{
+	font-size: 13px;
+}
+
+#header{
+	position: relative;
+	width: 152px;
+	height: 176px;
+	background: url(../images/micomoler_logo.png) no-repeat;
+	top:200px;
+	margin-left: auto;
+	margin-right: auto;
+	text-indent: -5000px;
+}
+
+#globalcontainer{
+	width: 670px;
+	height: 300px;
+	position: relative;
+	top: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#nav{
+	width:670px;
+	margin-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Unna;
+}
+
+#about{
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	position: relative;
+	top: -210px;
+	left: -60px;
+	z-index: 10;
+}
+
+#work{
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	position: relative;
+	top: -235px;
+	left: 95px;
+	z-index: 10;
+}
+
+#exhibits{
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	position: relative;
+	top: -255px;
+	left: 245px;
+	z-index: 10;
+}
+
+#press{
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	position: relative;
+	top: -285px;
+	left: 405px;
+	z-index: 10;
+}
+
+#contact{
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	position: relative;
+	top: 133px;
+	left: 495px;
+	z-index: 10;
+}
+
+
+#container1{
+	margin-top: -110px;
+}
+
+#box1{
+	width: 110px;
+	height: 110px;
+	float: left;
+	margin-left: 45px;
+	position: relative;
+	background: black;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+}
+
+#container2{
+	top: -32px;
+	position: relative;
+	left: 77px;
+}
+
+#box2{
+	width: 110px;
+	height: 110px;
+	float: left;
+	margin-left: 45px;
+	position: relative;
+	background: #ccc;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+}
+
+#container3{
+	position:relative;
+	width: 670px;
+	top:-65px;
+	left:0px;
+	clear: both;
+}
+
+#box3{
+	width: 110px;
+	height: 110px;
+	float: left;
+	margin-left: 45px;
+	background: #FF9999;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+}
