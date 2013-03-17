@@ -50,6 +50,20 @@ h2{
 	text-indent: -5000px;
 }
 
+#promo{
+	width: 400px;
+	height: 150px;
+	border-radius: 200px;
+	background: url(../images/background.jpg);
+	position:relative;
+	top:-50px;
+	text-align: center;
+	padding-top: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: -1;
+}
+
 #globalcontainer{
 	width: 670px;
 	height: 300px;
