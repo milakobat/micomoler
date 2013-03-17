@@ -24,7 +24,7 @@ a:active {color:#FF9999; text-decoration:none;}  /* selected link */
 .h1 a:active {color:#181818; text-decoration:none;}  /* selected link */
 
 html, body{
-	background: url(../images/background.jpg);
+	margin-bottom: 0px;
 }
 
 h1{
@@ -127,7 +127,46 @@ h2{
 	margin-top: -110px;
 }
 
-#box1{
+#box1a{
+	width: 110px;
+	height: 110px;
+	float: left;
+	margin-left: 45px;
+	position: relative;
+	background: url(../images/box_bo.png);
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+}
+
+#box1b{
+	width: 110px;
+	height: 110px;
+	float: left;
+	margin-left: 45px;
+	position: relative;
+	background: url(../images/box_tituna.png);
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+}
+
+#box1c{
+	width: 110px;
+	height: 110px;
+	float: left;
+	margin-left: 45px;
+	position: relative;
+	background: black;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+}
+
+#box1d{
 	width: 110px;
 	height: 110px;
 	float: left;
@@ -146,7 +185,33 @@ h2{
 	left: 77px;
 }
 
-#box2{
+#box2a{
+	width: 110px;
+	height: 110px;
+	float: left;
+	margin-left: 45px;
+	position: relative;
+	background: url(../images/box_th.png);
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+}
+
+#box2b{
+	width: 110px;
+	height: 110px;
+	float: left;
+	margin-left: 45px;
+	position: relative;
+	background: #ccc;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+}
+
+#box2c{
 	width: 110px;
 	height: 110px;
 	float: left;
@@ -167,7 +232,7 @@ h2{
 	clear: both;
 }
 
-#box3{
+#box3a{
 	width: 110px;
 	height: 110px;
 	float: left;
@@ -178,3 +243,40 @@ h2{
 	-ms-transform: rotate(45deg);
 	-o-transform: rotate(45deg);
 }
+
+#box3b{
+	width: 110px;
+	height: 110px;
+	float: left;
+	margin-left: 45px;
+	background: url(../images/box_boti.png);
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+}
+
+#box3c{
+	width: 110px;
+	height: 110px;
+	float: left;
+	margin-left: 45px;
+	background: #FF9999;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+}
+
+#box3d{
+	width: 110px;
+	height: 110px;
+	float: left;
+	margin-left: 45px;
+	background: url(../images/box_pipa.png);
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+}
+
